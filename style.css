@@ -1,0 +1,41 @@
+.contact form{
+    margin:1rem auto;
+    max-width: 70rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+}
+
+.contact form .box{
+    padding:1rem 1.5rem;
+    width:100%;
+    background: none;
+    color:var(--black);
+    font-size: 1.6rem;
+    text-transform: none;
+    margin:.7rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact form .box:focus{
+    box-shadow: var(--box-shadow-inset);
+}
+
+.credits{
+    font-size: 2rem;
+    text-align: center;
+    padding:2.5rem 1rem;
+    margin-top: 1rem;
+    border-top: var(--border);
+    color:var(--black);
+}
+
+.credits span{
+    color: var(--green);
+}
